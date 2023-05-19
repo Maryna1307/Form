@@ -5,16 +5,16 @@
 html, body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1.5;
     color: #6f6969;
 }
 
 .form {
-    width: 970px;
+    width: 720px;
     margin: 70px auto;
-    padding: 70px 160px;
+    padding: 70px 100px;
     background-color: rgb(224, 220, 227);
     border-radius: 15px;
     box-shadow: 3px 5px 9px #817b7b;
@@ -26,7 +26,7 @@ html, body {
 
 label {
     display: inline-block;
-    width: 300px;
+    width: 260px;
 }
 
 input, textarea, select {
@@ -69,8 +69,8 @@ input[type="checkbox"] {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
 }
 
 input[type="radio"]{
@@ -86,8 +86,8 @@ input[type="checkbox"]:checked:before{
     content: '';
     background-color: #ffffff;
     display: inline-block;
-    width: 18px;
-    height: 18px;
+    width: 12px;
+    height: 12px;
 }
 
 input[type="radio"]:checked::before{
@@ -95,5 +95,5 @@ input[type="radio"]:checked::before{
 }
 
 input[type="checkbox"]:checked:before{
-    border-radius: 5px;
+    border-radius: 3px;
 }
